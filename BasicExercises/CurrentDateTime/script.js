@@ -4,11 +4,11 @@
 * Current time is : 10 PM : 30 : 38
 */
 
-const DaysOfWeek = ['Monday', 'Tuesday', 'Wednessday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+const DaysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednessday', 'Thursday', 'Friday', 'Saturday'];
 
 function showDay() {
     let currentDay = new Date().getDay();
-    document.getElementById('currentWeekDay').innerHTML = DaysOfWeek[currentDay - 1];
+    document.getElementById('currentWeekDay').innerHTML = DaysOfWeek[currentDay];
 }
 
 function showTime() {
